@@ -29,6 +29,7 @@ export default function Dashboard() {
                 <h2 className="text-center mb-4">Profile</h2>
                 <strong>Email: </strong> {currentUser.email}
                 <Link to="/update-profile" className='btn btn-primary mt-3 w-100'>Update Profile</Link>
+                <Link to="/view-assests" className='btn btn-primary mt-3 w-100'>View Assests</Link>
             </Card.Body>
         </Card>
         <div className="w-100 text-center mt-2">
